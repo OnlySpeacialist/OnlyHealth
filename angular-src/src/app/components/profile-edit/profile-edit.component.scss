@@ -1,0 +1,43 @@
+.p-5{
+  height: 88%;
+  background-color: rgba(139, 139, 139, 0.329);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 930px;
+  padding: 0 !important;
+}
+
+.edit-jh {
+  margin: 2%;
+  width: 90%;
+  height: 96%;
+  height: auto;
+  position: absolute;
+  font-family: 'Gowun Dodum', sans-serif;
+  color: rgb(255, 255, 255);
+  text-shadow: 
+      0 -1px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 18px 22px rgba(0, 0, 0, 3);
+}
+
+.btn {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .p-5 {
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .p-5 {
+    width: 300px;
+  }
+}

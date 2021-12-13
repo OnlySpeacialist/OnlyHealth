@@ -1,0 +1,27 @@
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.527);
+  height: 88%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 930px;
+  padding: 0 !important;
+}
+
+
+@media only screen and (max-width: 992px) {
+  .center {
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .center {
+    width: 300px;
+  }
+}

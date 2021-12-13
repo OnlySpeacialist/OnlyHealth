@@ -1,0 +1,29 @@
+<div class="profile-box">
+  <div *ngIf="name">
+    <h2 class="page-header">내정보</h2>
+    <br />
+    <div class="profile-box3">
+      <ul class="myprofile">
+        <li>이름</li>
+        <li>아이디</li>
+        <li>이메일</li>
+        <li>키</li>
+        <li>몸무게</li>
+      </ul>
+      <ul class="myprofile-result">
+        <li>: {{ name }}</li>
+        <li>: {{ username }}</li>
+        <li>: {{ email }}</li>
+        <li>: 키cm</li>
+        <li>: 몸무게kg</li>
+      </ul>
+    </div>
+  </div>
+  <div>
+    <a class="btn btn-primary" routerLink="/profile-edit">내 정보 수정</a>
+  </div>
+
+</div>
+
+<div class="p-5" id="main">
+</div>

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dongle:wght@300&family=Gothic+A1:wght@100&family=Gowun+Dodum&display=swap');
+
+.p-5{
+  height: 88%;
+  background-color: rgba(139, 139, 139, 0.329);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 48vw;
+}
+
+.login-main {
+  margin: 7% auto 7% 30%;
+  z-index: 3;
+  width: 40%;
+  height: auto;
+  position: absolute;
+  font-family: 'Gowun Dodum', sans-serif;
+  color: rgb(255, 255, 255);
+  text-shadow: 
+      0 -1px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 18px 22px rgba(0, 0, 0, 3);
+  // border: 3px solid red;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  // justify-content: center;
+}
+
+.btn {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.page-tail {
+  color: white;
+  text-decoration: none;
+}

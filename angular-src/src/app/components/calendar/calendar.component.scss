@@ -1,0 +1,38 @@
+section {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.424);
+  height: 870px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 930px;
+  padding: 0 !important;
+  
+}
+
+.add_event {
+  background: none;
+  border: white 2px solid;
+  color: white;
+  transform: translateX(750%);
+}
+
+@media only screen and (max-width: 992px) {
+  section {
+    width: 600px;
+  }
+  .add_event {
+    transform: translateX(300%);
+  }
+  
+}
+
+@media only screen and (max-width: 630px) {
+  section {
+    width: 300px;
+  }
+  .add_event {
+    transform: translateX(100%);
+  }
+}

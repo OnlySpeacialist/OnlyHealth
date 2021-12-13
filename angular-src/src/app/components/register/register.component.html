@@ -1,0 +1,72 @@
+<div class="p-5 mb-4 rounded-3 " id="main">
+  <div class="register-form">
+    <h2 class="page-header">사용자 등록</h2>
+    <form (ngSubmit)="onRegisterSubmit()">
+
+      <div class="form-group">
+        <label for="exampleInputEmail3">아이디</label>
+        <input type="text" [(ngModel)]="username" [ngModelOptions]="{standalone: true}" class="form-control"
+          id="exampleInputEmail3" />
+      </div>
+
+      <br />
+
+      <div class="form-group">
+        <label for="exampleInputEmail4">패스워드</label>
+        <input type="password" [(ngModel)]="password1" [ngModelOptions]="{standalone: true}" class="form-control"
+          id="exampleInputEmail4" />
+      </div>
+
+      <br />
+
+      <div class="form-group">
+        <label for="exampleInputEmail5">패스워드 확인</label>
+        <input type="password" [(ngModel)]="password2" [ngModelOptions]="{standalone: true}" class="form-control"
+          id="exampleInputEmail5" />
+      </div>
+
+      <br />
+
+      <div class="form-group">
+        <label for="exampleInputEmail1"> 이름</label>
+        <input type="text" [(ngModel)]="name" [ngModelOptions]="{standalone: true}" class="form-control"
+          id="exampleInputEmail1" />
+      </div>
+
+      <br />
+
+      <!-- <div class="form-group">
+        <label for="exampleInputEmail1"> 생년월일 | Birthday</label>
+
+      </div>
+      
+      <br/>
+
+      <div class="form-group">
+        <label for="exampleInputEmail1"> 성별 | Sex </label>
+
+      </div>
+      
+      <br/> -->
+
+      <div class="form-group">
+        <label for="exampleInputEmail2">이메일</label>
+        <input type="email" [(ngModel)]="email" [ngModelOptions]="{standalone: true}" class="form-control"
+          id="exampleInputEmail2" />
+      </div>
+      <br />
+      <br />
+
+
+
+      <input type="submit" class="btn" value="회원가입" />
+      <br />
+      <br />
+
+      <!-- <a class="page-tail" routerLink="/login">기존회원이신가요? </a> -->
+    </form>
+  </div>
+
+
+
+</div>
